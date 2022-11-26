@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    float: right;
+    
+}
+
+h1{
+    direction:rtl;
+    
+}
+.li{
+    list-style: none;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.heder{
+  
+   padding: 10px;
+   margin: 10px;
+  
+}
+.heder h2 ,img{
+    text-align: center;
+}
+.heder samp{
+  display: flex;
+  justify-content: space-between;
+}
+table{
+    flex-direction: column;
+    width: 1348px;
+    height: 100%;
+    text-align: right;
+   
+}
+.box{
+    width: 35px;
+    height: 130px;
+}
+.box input{
+    height: 110px;
+    width: 110px;
+    border-top-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    margin: 10px 30px 7px 65px;
+    text-align: center;
+    box-shadow: -3px -3px  5px -1px rgb(78, 78, 77), 3px 3px 3px 1px rgb(78, 78, 77);
+    outline: auto;
+    color: aliceblue;
+}
+.log {
+    width: 200px;
+    height: 130px;
+    border-radius: 30px;
+
+}
+h4{
+  font-size: 22px;
+}
+.name >h6 {
+    float:right ;
+    font-size: 22px;
+    margin: 10px;
+}
+hr{
+    width: 1335px;
+    
+}
+.name >h3{
+    float:right ;
+    font-size: 30px;
+    margin: 10px;
+}
+input{
+    font-size: large;
+    outline: auto;
+}
+
+select,option{
+    font-size: large;
+    color: rgb(255, 0, 0);
+    outline: auto;
+}
+button{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(4, 143, 207);
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 40%;
+    height: 60px;
+    outline: auto;
+    text-align: center;
+
+    border-radius: 30px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+button:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+
+
+}
+
+.name{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+@media(max-width:768px){
+    .name{
+        width: 700px;
+    }
+}
+
+@media(max-width:992px){
+   .name{
+        width: 900px;
+    }
+}
+@media(max-width:1200px){
+    .name{
+        width: 1100px;
+    }
+}
+@media (max-width: 641px){
+body{
+    font-size: 12px;
+
+}}
+

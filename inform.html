@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style_info.css">
+</head>
+<body>
+ <div class="name">
+   <form action="#">
+       <div class="heder b">
+         <h2> شعار جامعة عمران <br>   <img class="log" src="image/amran_universty.jpg" alt="">
+         </h2>
+           
+           <samp>
+            <h4 ><input type="text" name="num_form" placeholder="Enter the form number"> :رقم الاستمارة </h4>
+            <h2>  كلية الهندسة <br>
+                نبيل الشهاري</h2>
+         </samp>
+      </div>
+        
+        
+          <hr><br>
+          <!-- بداية  الجدول الرئيسي-->
+      <table border="2px solid black">
+            
+            <tr height="50%">
+                <td width="20%">
+                  <div class="box">  <input type="image.jpg" name="im" id="imag" placeholder="صورة " >
+                  </div>
+                </td>
+                <td ><h1 style="color: red ; text-align: center;">طلب التحاق بالكلية</h1></td>
+                <td width="20%"></td>
+
+            </tr>
+            
+            
+            <tr>
+                <!-- بداية جدول الارشادات -->
+            <table border="2px solid black" >
+                    <td colspan="3" >
+                        
+                    <h1 class="h">1.  إرشادات:</h1>
+                    
+                    
+                            <br> <p class="li">.يرجى كتابة المعلومات بخط واضح وبدقة - </p> <br>
+                        <p class="li">يسلم الطالب معبأ مع الوثائق المطلوبة في ملف إلى : مسجل الكلية -
+                        
+                    
+                        </td>
+                </table>
+                <!-- نهاية جدول الارشادات -->
+            </tr>
+            
+            <tr>
+            <!-- بداية جدول المعلومات الشخصية -->
+            <table border="2px solid black" >
+                <td colspan="3">
+                        <div class="name" >
+                            <h1 > 2. المعلومات الشخصية: </h1>
+                                <br>
+                                <br>
+                                <hr>
+                                
+                            <h2 >:الاسم الكامل باللغة العربية</h2>
+                                <h6>
+                                        <input type="text" name="name" placeholder="  الاسم الاول" /> :
+                                        الاسم الاول  :
+                                    <input type="text" name="name" id="" placeholder=" ادخل اسم الاب"> الاب  :
+                                    <input type="text" name="name" id="" placeholder=" ادخل اسم الجد"> الجد  :
+                                    <input type="text" name="name" id="" placeholder=" ادخل الاسم الاخير"
+                                    /> العائلة
+                                    
+                            </h6> 
+                        </div>
+                        
+                            <hr>
+                            <br>
+                            
+                        <div class="name">
+                                
+                            <h3> 
+                                <h2 >  <input type="text" placeholder="Enter your name Englsh"> 
+                                : الاسم الكامل باللغة الانجليزية (حسب جواز السفر) 
+                                </h2>
+                            </h3>
+                        </div>
+                                <br>
+                                <hr>
+                            <div class="name box1">
+                                <h6>: الجنس </h6>
+                                <h6>  ذكر  <input type="radio" name="male" id=""></h6>
+                                <h6> انثى <input type="radio" name="female" id="">   </h6>
+                                
+                            </div>
+                        
+                            
+                            <div class="name">
+                                    <h6>    الحالة الاجتماعية    &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; </h6>
+
+                                    <h6> متزوج <input type="radio" name="male" id="">
+                                    اعزب <input type="radio" name="female" id="">
+                                    </h6>
+                            </div>
+                        
+                            <div class="name">
+                                    <h6>
+                                        
+                                    
+                                <select>
+                                <option value="YEN">يمني</option>
+                                    <option value="YEN">سعودي</option>
+                                </select>
+                                :الجنسية  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp;   &nbsp;</h6>
+                        </div>
+                            
+                            <br>
+                            <br><br>
+                                                    
+                            
+                            <hr>
+
+                        <div class="name">
+                            <h6> :  البطاقة الشخصيةإلاكترونية(لليمنيين)رقمها </h6>
+                            <h6><input type="text"> </h6>
+                            <h6>: تاريخها </h6>
+                        <h6> <input type="date"></h6>
+                        
+                        
+                            <h6> 
+                        
+                        <select name="men"> 
+                            <option value="YEN">المركز الرئيسي</option>
+                            <option value="YEN">صعدة</option> 
+                        </select>  
+                        :مكان إصدارها  </h6>
+                        </div>
+                        <br><br>
+                        <hr>
+                        <div class="name">
+                                <h6> : جواز السفر (لغيراليمنيين)رقم الجواز  </h6>
+                                <h6><input type="text"> </h6>
+                                <h6>: تاريخها الاصدار </h6>
+                                <h6> <input type="date"></h6>
+                            
+                        </div>
+                </td> 
+            </table>
+            <!-- نهاية جدول المعلومات الشخصية -->
+         </tr>
+            
+            <tr>
+            <!-- بداية جدول عنوان الاقامة الشخصية -->
+                <table border="2px solid black;" > 
+                    <tr>
+                      
+                            <td width="18%">
+                                <h4>: المنطقة</h4>
+                                <input type="text">
+                            </td>
+                            <td width="18%">
+                                <h4>: الشارع</h4>
+                                <input type="text">
+                            </td>
+                            <td width="18%">
+                                <h4>: المدينة</h4>
+                                <input type="text">
+                            </td>
+                            <td width="18%">
+                                <h4>: الديرية</h4>
+                                <input type="text">
+                            </td>
+                            <td width="18%">
+                                <h4> :المحافظة</h4>
+                                <input type="text" name="" id="">
+                            </td>
+                            <td rowspan="2">
+                                <h1> عنوان الأقامة الحالية: </h1>
+                            </td>
+                       
+                    </tr>
+
+                    <tr>
+                        
+                        <td colspan="2">
+                            <h4> <input type="text">: رقم الهاتف الثابت لأحد الأقرباء</h4>
+                        </td>
+                        <td>
+                            <h4>   : البريد الأكتروني <input type="email" placeholder="info@Nabil.com">
+                             </h4>
+                        </td>
+                        <td  colspan="2">
+                            <h4> <input type="text" placeholder="+967"> : رقم الهاتف </h4>
+                        </td>
+                    </tr>
+                    
+                </table>
+                <!-- نهاية جدول عنوان الاقامة الشخصية --> 
+            </tr>
+
+            <tr>
+                <!-- بداية جدول الفصل الدراسي -->
+                <table border="2px solid black" >
+                   <tr>
+                    <td colspan="3" >
+                    <div class="name" >
+                        <h1 > 3. الفصل الدراسي: </h1>
+                        <h6>
+                        <select >
+                            
+                            <option value="one">: الفصل الدراسي</option>
+                            <option value="one">الاول</option> 
+                            <option value="tow">الثاني</option>
+                            <option value="three">الثالث</option>
+                            <option value="foure">الرابع</option>
+                        </select>: الفصل الدراسي 
+                        </h6>
+                        
+                        
+                        <div class="name">
+                            <h6> <input type="date">: العام الجامعي</h6>
+
+                            <h6> <input type="text">: التخصص المطلوب الالتحاق بة</h6>
+                        </div>
+                        
+                    </div>
+                    
+                    </td>
+                   </tr>
+                </table>
+                <!-- نهاية جدول الفصل الدراسي -->
+            </tr>
+            <tr>
+                <!-- بداية جدول الدراسات السابقة والمؤاهلات-->
+               <table border="2px solid black" >
+                 <tr>
+                    <td colspan="3" >
+                        <h1>  الدراسات السابقة والمؤهلات العلمية للطالب</h1>
+                    </td>
+                   </tr>
+                  <tr>
+                    
+                    <td colspan="3">
+                     <div class="name">
+                            <h3> :أ) درجة البكلريوس)
+                            </h3>
+                            
+                           <br>
+                           <br>
+                           <br>
+                             <h6>
+                             <select>
+                                    <option value="one">Yemen</option>
+                                    <option value="tow">Saudi Arbic</option>
+                                </select>
+                                &nbsp;  :اسم الدولة  &nbsp;  &nbsp;  &nbsp; 
+                            </h6>
+                            
+                            <h6> 
+                                 <input type="text"> &nbsp; :الجامعة :
+                             <input type="text">  &nbsp;  &nbsp; الكلية:
+                              <input type="text">  &nbsp;  &nbsp; اسم التخصص &nbsp;
+                            </h6>
+                       </div> <br>
+                       
+                       <div class="name">
+                           <h6>
+                            
+                                <input type="text" /> :التقدير العام:
+
+                              <input type="text"/>  &nbsp; &nbsp;  &nbsp; المعدل العام
+                            </h6>
+                           <br>
+
+                              <h6><input type="date"/>  : تاريخ الحصول على البكلريوس</h6>
+                           
+                       </div>
+                            
+                     </div>
+                     
+                    </td>
+                    
+             </tr>
+                <tr>
+                    <td colspan="3">
+                        <div class="name">
+                    <h3> : ب) درجة الدبلوم )
+                    </h3> <br>
+                     <br>
+                     <br>
+                    <h6>
+                        <select>
+                               <option value="one">Yemen</option>
+                               <option value="tow">Saudi Arbic</option>
+                           </select>
+                           &nbsp;  :اسم الدولة  &nbsp;  &nbsp;  &nbsp; 
+                       </h6>
+                       
+                       <h6> 
+                            <input type="text"> &nbsp; :الجامعة :
+                        <input type="text">  &nbsp;  &nbsp; الكلية:
+                         <input type="text">  &nbsp;  &nbsp; اسم التخصص &nbsp;
+                       </h6>
+                  </div> <br>
+                  
+                  <div class="name">
+                      <h6>
+                       
+                           <input type="text" /> :التقدير العام:
+
+                         <input type="text"/>  &nbsp; &nbsp;  &nbsp; المعدل العام
+                       </h6>
+                      <br>
+
+                         <h6><input type="date"/>  : تاريخ الحصول على الدبلوم</h6>
+                      
+                  </div>
+                       
+                </div>
+                    </td>
+                </tr>
+          </table>
+                <!-- نهاية جدول الدراسات السابقة والمؤاهلات-->
+            </tr>
+            <tr>
+                <!-- بداية جدول الوضع الوضيفي-->
+                <table border="2px solid black">
+                        <tr>
+                        <td>
+                    <div class="name">
+                        <h1> 5.الوضع الوظيفي:</h1>
+                        <h6>
+                        موضف  <input type="radio">غير موضف
+                            <input type="radio">
+                            &nbsp;  &nbsp; </h6>
+
+                        <h6>  <input type="text"> الوظيفة:
+                            
+                          <input type="text"> &nbsp;  &nbsp;   &nbsp; &nbsp; مكان الوظيفة &nbsp;
+                          &nbsp;  &nbsp;   &nbsp;  &nbsp;  </h6>
+                    </div>
+                        </td>
+                    
+                </table>
+                    <!-- نهاية جدول الوضع الوضيفي-->
+            </tr>
+            <tr>
+                <!-- بداية جدول اقرار الطالب-->
+                <table border="2px solid black" >
+                    <td colspan="2">
+                    <div class="name">
+                    <h6>اقر بأن جميع المعلومات الواردة في هذا الطلب صحيحة ؛وإذا تبين عكس ذلك
+                        أتحمل كافة العقوبات القانونية المترتبة على ذلك ومنها إلغاء قبولي
+                        وفقدان حقي بالمطالبة بالرسوم الذي<br>. دفعتة
+                    </h6>
+                    <br>
+                    <br>
+                    <div class="name"> 
+                        <h6>
+                        <input type="text"> &nbsp;:اسم الطالب &nbsp; &nbsp;  </h6>
+                        <H6>&nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp;  ................: توقيعة  &nbsp; &nbsp; &nbsp; </H6> 
+                         <h6><input type="date"> &nbsp;:التاريخ</h6>
+                         
+                    </h6>
+                    <h6>
+                         <button type="submit" name="submit" > ارسال </button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    </h6>
+                    </div>
+                    <br>
+        
+                   
+                    </div>
+                    </td>
+                    <td width="5%">
+                        <h2>إقرار الطلب</h2>
+                    </td>
+                    
+                </table>
+                <!-- نهاية جدول اقرار الطالب-->
+            </tr>
+        
+      </table>
+      <!-- نهاية  الجدول الرئيسي-->
+    </div>
+    
+  </form>
+  
+</body>
+</html>
