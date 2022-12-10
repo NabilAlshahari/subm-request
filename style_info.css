@@ -6,7 +6,7 @@
 html , body{
     
 float:right;
-margin-left:60px;
+margin-left:70px;
     
 }
 
@@ -38,6 +38,7 @@ table{
     width: 1348px;
     height: 100%;
     text-align: right;
+    overflow:hidden;
    
 }
 .box{
