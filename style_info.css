@@ -119,18 +119,18 @@ button:hover{
 
 }
 @media(max-width:768px){
-    .name{
+    body {
         width: 700px;
     }
 }
 
 @media(max-width:992px){
-   .name{
+   body {
         width: 900px;
     }
 }
 @media(max-width:1200px){
-    .name{
+    body {
         width: 1100px;
     }
 }
