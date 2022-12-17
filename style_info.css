@@ -3,46 +3,49 @@
     margin: 0;
     padding: 0;
 }
-html , body{
-    
-float:right;
-margin-left:70px;
-
-    
+html , body {
+margin-left: 20%;
+margin: 0;
+padding: 0;
 }
+.header {
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-between;
 
-h1{
+ }
+
+  .log > img {
+     margin: 10px  30px 10px 0;
+     padding: 0;
+    width: 200px;
+    height: 130px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  
+}
+.log > h2 {text-align: center;}
+
+h1 {
     direction:rtl;
-    
+
 }
 
-.heder{
-  
-   padding: 10px;
-   margin: 10px;
-  
-}
-.heder h2 ,img{
-    text-align: center;
-}
-.heder samp{
-  display: flex;
-  justify-content: space-between;
-}
+
+
+
 table {
-  
-   flex-direction: column;
-    width: 1300px;
+    flex-direction: column;
+    width: 100%;
     height: 100%;
     text-align: right;
-    overflow:hidden;
-   
+
 }
-.box{
-    width: 35px;
+.box {
+    width: 100px;
     height: 130px;
 }
-.box input{
+.box > input {
     height: 110px;
     width: 110px;
     border-top-left-radius: 17px;
@@ -53,88 +56,90 @@ table {
     outline: auto;
     color: aliceblue;
 }
-.log {
-    width: 200px;
-    height: 130px;
-    border-radius: 30px;
 
-}
-h4{
+h4 {
   font-size: 22px;
 }
-.name >h6 {
+.name > h6 {
     float:right ;
     font-size: 22px;
     margin: 10px;
 }
-hr{
-    width: 1335px;
+hr {
+    width: 100%;
     
 }
-.name >h3{
+.name > h3 {
     float:right ;
     font-size: 30px;
     margin: 10px;
 }
-input{
+input {
     font-size: large;
     outline: auto;
 }
 
-select,option{
+select,option {
     font-size: large;
     color: rgb(255, 0, 0);
     outline: auto;
 }
-button{
+.button {
+    margin-top: 15px;
+    text-align: center;
+}
+button {
     text-decoration: none;
     color: #fff;
     background-color: rgb(4, 143, 207);
     font-size: 1.1em;
     font-weight: 600;
-    width: 40%;
+    width: 20%;
     height: 60px;
     outline: auto;
     text-align: center;
-
     border-radius: 30px;
     margin-bottom: 40px;
     transition: 0.7s ease;
 }
-button:hover{
+button:hover {
     background-color: #0a49f6;
     transform: scale(1.1);
 
 
 }
-/*
-.name{
+
+ .name {
     padding-left: 5px;
     padding-right: 5px;
     margin-left: auto;
     margin-right:auto;
-
-}
-@media(max-width:768px){
-    body {
-        width: 700px;
-    }
-}
-
-@media(max-width:992px){
-   body {
-        width: 900px;
-    }
-}
+ }
+ 
 @media(max-width:1200px){
-    body {
-        width: 1100px;
-    }
-}
-@media (max-width: 641px){
-body{
-    font-size: 12px;
+  .name {
+         width: 1100px;
+     }
+ }
 
-}}
-
-*/
+ @media(max-width:992px){
+   .name {
+         width: 940px;
+     }
+ }
+ @media(max-width:768px){
+   .name {
+         width: 740px;
+     }
+ }
+ @media(max-width:768px){
+  .name  {
+         width: 540px;
+     }
+ }
+ .hard {
+     width: 102.8%;
+ }
+ .hard input {
+     width:100%;
+ }
