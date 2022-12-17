@@ -67,7 +67,10 @@ h4 {
     margin: 10px;
 }
 hr {
-    width: 150%;
+width: 150%; 
+} 
+table hr {
+    width: 100%;
     
 }
 .name > h3 {
@@ -89,6 +92,7 @@ select,option {
     margin-top: 15px;
     text-align: center;
 }
+.na {font-size: 30px;}
 button {
     text-decoration: none;
     color: #fff;
